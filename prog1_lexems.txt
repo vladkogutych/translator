@@ -1,0 +1,104 @@
+Table of tokens!
+=======================================================
+#	        NAME                TYPE     VALUE LINE
+=======================================================
+1	     ??Prog1            comentar         0    1
+2	     Program             program         0    2
+3	      pROG1_        program name         0    2
+4	           ;           separator         0    2
+5	       Start               start         0    3
+6	         Var            variable         0    4
+7	       Int_4            var type         0    4
+8	          a_          identifier         0    4
+9	           ,               comma         0    4
+10	          b_          identifier         0    4
+11	           ,               comma         0    4
+12	          x_          identifier         0    4
+13	           ,               comma         0    4
+14	          y_          identifier         0    4
+15	           ;           separator         0    4
+16	        Scan               input         0    5
+17	           (         left braket         0    5
+18	          a_          identifier         0    5
+19	           )        right braket         0    5
+20	           ;           separator         0    5
+21	        Scan               input         0    6
+22	           (         left braket         0    6
+23	          b_          identifier         0    6
+24	           )        right braket         0    6
+25	           ;           separator         0    6
+26	       Print              output         0    7
+27	           (         left braket         0    7
+28	          a_          identifier         0    7
+29	          ++                 add         0    7
+30	          b_          identifier         0    7
+31	           )        right braket         0    7
+32	           ;           separator         0    7
+33	       Print              output         0    8
+34	           (         left braket         0    8
+35	          a_          identifier         0    8
+36	          --                 sub         0    8
+37	          b_          identifier         0    8
+38	           )        right braket         0    8
+39	           ;           separator         0    8
+40	       Print              output         0    9
+41	           (         left braket         0    9
+42	          a_          identifier         0    9
+43	          **                 mul         0    9
+44	          b_          identifier         0    9
+45	           )        right braket         0    9
+46	           ;           separator         0    9
+47	       Print              output         0   10
+48	           (         left braket         0   10
+49	          a_          identifier         0   10
+50	         Div                 div         0   10
+51	          b_          identifier         0   10
+52	           )        right braket         0   10
+53	           ;           separator         0   10
+54	       Print              output         0   11
+55	           (         left braket         0   11
+56	          a_          identifier         0   11
+57	         Mod                 mod         0   11
+58	          b_          identifier         0   11
+59	           )        right braket         0   11
+60	           ;           separator         0   11
+61	          x_          identifier         0   12
+62	          ->           new value         0   12
+63	           (         left braket         0   12
+64	          a_          identifier         0   12
+65	          --                 sub         0   12
+66	          b_          identifier         0   12
+67	           )        right braket         0   12
+68	          **                 mul         0   12
+69	         10_              number        10   12
+70	          ++                 add         0   12
+71	           (         left braket         0   12
+72	          a_          identifier         0   12
+73	          ++                 add         0   12
+74	          b_          identifier         0   12
+75	           )        right braket         0   12
+76	         Div                 div         0   12
+77	         10_              number        10   12
+78	           ;           separator         0   12
+79	          y_          identifier         0   13
+80	          ->           new value         0   13
+81	          x_          identifier         0   13
+82	          ++                 add         0   13
+83	           (         left braket         0   13
+84	          x_          identifier         0   13
+85	         Mod                 mod         0   13
+86	         10_              number        10   13
+87	           )        right braket         0   13
+88	           ;           separator         0   13
+89	       Print              output         0   14
+90	           (         left braket         0   14
+91	          x_          identifier         0   14
+92	           )        right braket         0   14
+93	           ;           separator         0   14
+94	       Print              output         0   15
+95	           (         left braket         0   15
+96	          y_          identifier         0   15
+97	           )        right braket         0   15
+98	           ;           separator         0   15
+99	      Finish                 end         0   16
+100	                     end of file         0   16

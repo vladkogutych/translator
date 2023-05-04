@@ -1,0 +1,20 @@
+??Prog3
+Program pROG3;
+Start
+Var Int_4 a,a2,b,x,c1,c2;
+Scan(a);
+Scan(b);
+For(a2->a; Not(a2 Ge b); a2->a2 ++ 1)
+Start
+	Print(a2 ** a2);
+Finish
+x->0;
+For(c1->0; c1 Le a; c1->c1 ++ 1)
+Start
+	For(c2->0; c2 Le b; c2->c2 ++ 1)
+	Start
+		x->x ++ 1;
+	Finish
+Finish
+Print(x);
+Finish

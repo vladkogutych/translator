@@ -1,0 +1,114 @@
+Table of tokens!
+=======================================================
+#	        NAME                TYPE     VALUE LINE
+=======================================================
+1	     ??Prog3            comentar         0    1
+2	     Program             program         0    2
+3	      pROG3_        program name         0    2
+4	           ;           separator         0    2
+5	       Start               start         0    3
+6	         Var            variable         0    4
+7	       Int_4            var type         0    4
+8	          a_          identifier         0    4
+9	           ,               comma         0    4
+10	         a2_          identifier         0    4
+11	           ,               comma         0    4
+12	          b_          identifier         0    4
+13	           ,               comma         0    4
+14	          x_          identifier         0    4
+15	           ,               comma         0    4
+16	         c1_          identifier         0    4
+17	           ,               comma         0    4
+18	         c2_          identifier         0    4
+19	           ;           separator         0    4
+20	        Scan               input         0    5
+21	           (         left braket         0    5
+22	          a_          identifier         0    5
+23	           )        right braket         0    5
+24	           ;           separator         0    5
+25	        Scan               input         0    6
+26	           (         left braket         0    6
+27	          b_          identifier         0    6
+28	           )        right braket         0    6
+29	           ;           separator         0    6
+30	         For                 for         0    7
+31	           (         left braket         0    7
+32	         a2_          identifier         0    7
+33	          ->           new value         0    7
+34	          a_          identifier         0    7
+35	           ;           separator         0    7
+36	         Not                 not         0    7
+37	           (         left braket         0    7
+38	         a2_          identifier         0    7
+39	          Ge              greate         0    7
+40	          b_          identifier         0    7
+41	           )        right braket         0    7
+42	           ;           separator         0    7
+43	         a2_          identifier         0    7
+44	          ->           new value         0    7
+45	         a2_          identifier         0    7
+46	          ++                 add         0    7
+47	          1_              number         1    7
+48	           )        right braket         0    7
+49	       Start               start         0    8
+50	       Print              output         0    9
+51	           (         left braket         0    9
+52	         a2_          identifier         0    9
+53	          **                 mul         0    9
+54	         a2_          identifier         0    9
+55	           )        right braket         0    9
+56	           ;           separator         0    9
+57	      Finish                 end         0   10
+58	          x_          identifier         0   11
+59	          ->           new value         0   11
+60	          0_              number         0   11
+61	           ;           separator         0   11
+62	         For                 for         0   12
+63	           (         left braket         0   12
+64	         c1_          identifier         0   12
+65	          ->           new value         0   12
+66	          0_              number         0   12
+67	           ;           separator         0   12
+68	         c1_          identifier         0   12
+69	          Le                less         0   12
+70	          a_          identifier         0   12
+71	           ;           separator         0   12
+72	         c1_          identifier         0   12
+73	          ->           new value         0   12
+74	         c1_          identifier         0   12
+75	          ++                 add         0   12
+76	          1_              number         1   12
+77	           )        right braket         0   12
+78	       Start               start         0   13
+79	         For                 for         0   14
+80	           (         left braket         0   14
+81	         c2_          identifier         0   14
+82	          ->           new value         0   14
+83	          0_              number         0   14
+84	           ;           separator         0   14
+85	         c2_          identifier         0   14
+86	          Le                less         0   14
+87	          b_          identifier         0   14
+88	           ;           separator         0   14
+89	         c2_          identifier         0   14
+90	          ->           new value         0   14
+91	         c2_          identifier         0   14
+92	          ++                 add         0   14
+93	          1_              number         1   14
+94	           )        right braket         0   14
+95	       Start               start         0   15
+96	          x_          identifier         0   16
+97	          ->           new value         0   16
+98	          x_          identifier         0   16
+99	          ++                 add         0   16
+100	          1_              number         1   16
+101	           ;           separator         0   16
+102	      Finish                 end         0   17
+103	      Finish                 end         0   18
+104	       Print              output         0   19
+105	           (         left braket         0   19
+106	          x_          identifier         0   19
+107	           )        right braket         0   19
+108	           ;           separator         0   19
+109	      Finish                 end         0   20
+110	                     end of file         0   20

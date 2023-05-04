@@ -1,0 +1,42 @@
+??Prog2
+Program pROG2;
+Start
+Var Int_4 a,b,c;
+Scan(a);
+Scan(b);
+Scan(c);
+If(a Ge b)
+Start
+	If(a Le c)
+	Start
+		Print(c);
+	Else
+		Print(a);
+	Finish
+Else
+	If(b Le c)
+	Start
+		Print(c);
+	Else
+		Print(b);
+	Finish
+Finish
+If((a Eg b) And (a Eg c) And (b Eg c))
+Start
+	Print(1);
+Else
+	Print(0);
+Finish
+If((a Le 0) Or (b Le 0) Or (c Le 0))
+Start
+	Print(-- 1);
+Else
+	Print(0);
+Finish
+If(Not(a Le (b ++ c)))
+Start
+	Print(10);
+Else
+	Print(0);
+Finish
+Finish
